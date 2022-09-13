@@ -5,6 +5,7 @@ import AddIcon from "@mui/icons-material/Add";
 const CreateNote = (props) => {
   const [createNote, setCreateNote] = useState({ title: "", content: "" });
   const [Expanded, setExpanded] = useState(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
 
